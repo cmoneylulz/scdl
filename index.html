@@ -4,8 +4,14 @@
 		<title>Soundcloud DL</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<script src="lib/jquery-2.1.0.min.js"></script>
-		<script src="lib/jquery-2.1.0.min.map"></script>
 		<script src="js/main.js"></script>
+		<script src="http://connect.soundcloud.com/sdk.js"></script>
+		<script>
+		  SC.initialize({
+		    client_id: "be76057de70ac578b8235ce2d29eae01",
+		    redirect_uri: "http://localhost/callback.html",
+		  });
+		</script>
 	</head>
 	<body>
 	</body>
