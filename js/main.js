@@ -1,4 +1,4 @@
-$.document.onLoad() = function 
+$.document.onLoad() = function()
 {
  	SC.initialize({
 	    client_id: "be76057de70ac578b8235ce2d29eae01",
